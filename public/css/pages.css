@@ -1,0 +1,163 @@
+
+/* Common styling to all sub pages
+ * ------------------------------------------------------ */
+main[id^="pages-"] {
+  display: flex;
+  background: -webkit-linear-gradient(-90deg, #6dd5ed 0%, #2193b0 100%);
+}
+main[id^="pages-"] .bg-wrap {
+  background: rgba(255, 255, 255, .7);
+  margin: 20px auto;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+main[id^="pages-"] section,
+main[id^="pages-"] aside  {
+  padding: 1.5em 0;
+}
+main[id^="pages-"] section h3 {
+  font-size: 2em;
+  padding-bottom: 8px;
+}
+main[id^="pages-"] aside h4 {
+  font-size: 1.3em;
+  color: #232323;
+  margin-bottom: 5px;
+}
+main[id^="pages-"] aside ul {
+  list-style-type: none;
+}
+main[id^="pages-"] aside ul li {
+  padding: 0.2em 0;
+}
+main[id^="pages-"] aside a.link {
+  color: #cc4e1c;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+main[id^="pages-"] aside a.link:hover,
+main[id^="pages-"] aside a.link:focus {
+  background: #fff5b0;
+  font-style: italic;
+  border-bottom: 1px solid #cc4e1c;
+  outline-style: solid;
+  outline-offset: 1px;
+  outline-color: #cc4e1c;
+}
+.link-desc {
+  font-size: 0.85em;
+  color: #333;
+  line-height: 1.6;
+  font-style: italic;
+}
+img.link-img {
+  width: 75%;
+  padding-bottom: 14px;
+}
+p.contents-para {
+  font-size: 1.1em;
+  line-height: 1.4;
+  padding-bottom: 15px;
+}
+h4.contents-title {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  padding: 25px 0 4px 0;
+  border-bottom: 2px solid #2192b0;
+  margin-bottom: 6px;
+  color: #2391b0;
+  clear: both;
+}
+img.contents-img {
+  float: left;
+  width: 323px;
+  padding: 5px 10px 5px 0;
+}
+
+
+
+/* Two columns sub page
+ * ------------------------------------------------------ */
+main[id^="pages-"] section.two-col {
+  float: right;
+  width: 76%;
+  margin-right: 20px;
+}
+main[id^="pages-"] aside.two-col {
+  float: left;
+  width: 19%;
+  margin-top: 7px;
+  margin-left: 20px;
+}
+
+
+
+/* Three columns sub page
+ * ------------------------------------------------------ */
+main[id^="pages-"] section.three-col {
+  float: left;
+  width: 55%;
+  margin: 0 10px;
+}
+main[id^="pages-"] aside.three-col.left-col {
+  float: left;
+  width: 19%;
+  margin-top: 7px;
+  margin-left: 20px;
+}
+main[id^="pages-"] aside.three-col.right-col {
+  float: right;
+  width: 17%;
+  margin-top: 24px;
+  margin-right: 20px;
+  padding: 7px;
+  border: 1px solid #99cbd8;
+  background: #b9e8f3;
+}
+
+
+
+/* About Arctic page (Two columns)
+ * ------------------------------------------------------ */
+#img-map {
+  width: 370px;
+  float: right;
+  padding: 0 0 10px 10px;
+}
+
+
+
+/* About Animals page (Three columns)
+ * ------------------------------------------------------ */
+#col-endangered li {
+  border-bottom: 1px dotted #8f999c;
+  margin-top: 2px;
+}
+#col-life h4 {
+  font-size: 1.2em;
+  color: #003b4a;
+}
+#col-life p {
+  line-height: 1.3;
+}
+
+
+
+/* Under Construction page
+ * ------------------------------------------------------ */
+.bg-wrap#construction {
+  /* height: 300px; */
+  text-align: center;
+  padding: 30px 0;
+}
+h3.construction-title {
+  font-size: 1.6em;
+  margin: 10px 0;
+}
+img.construction-img {
+  width: 340px;
+  margin: 20px 0;
+}
+p.construction-para {
+  font-size: 1.1em;
+}
